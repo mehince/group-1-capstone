@@ -42,6 +42,14 @@ We only considered movies in each dataset that had been released in 2010 or late
 
 # Data Analysis
 
+We used three high-priority metrics to focus our analysis. These metrics were:
+* Highest-rated movie genres
+* Budget-to-box office ratio
+* Which production studios gross the highest
+  * Which genres of movies these production studios produce. 
+ 
+We cleaned, aggregated, and normalized data from Box Office Mojo, The Numbers, and the Internet Movie Database (IMDB) to calculate these metrics and create recommendations for Computer Vision. We also used hypothesis testing to determine whether Computer Vision should market their movies in the international or domestic spaces. 
+
 # Statistical Communication
 
 After identifying **animation** as the genre Computer Vision should pursue, we wanted to explore the difference between the genre's foreign and domestic gross. Specifically, we hypothesize that the animation genre will gross higher internationally than domestically. Based on the results of the test we can determine where to best spend marketing efforts to maximize profitability.
@@ -49,4 +57,14 @@ After identifying **animation** as the genre Computer Vision should pursue, we w
 The results of our statistical test show that with 95% confidence foreign gross is significantly greater than domestic gross in the Animation genre. This indicates that more money should be spent marketing to foreign markets as opposed to domestic.  
 
 # Conclusion
+### Summary of Recommendations
 
+* Computer Vision should produce a movie in the animation genre.
+* Computer Vision should spend approximately $80 million on the production of their first movie. 
+* Computer Vision should allocate more marketing effort and funds towards the international market versus the domestic market. 
+
+### Next Steps
+
+* We would like to continue to test our hypothesis and compare our recommendations to those that would be produced from the datasets we did not use. 
+* We would like to collect more revent movie rating and box office data for more rigorous analysis. 
+* We would like to conduct further analysis regarding how much money should be allocated towards international versus domestic marketing efforts.
