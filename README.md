@@ -46,7 +46,7 @@ We used three high-priority metrics to focus our analysis. These metrics were:
 * Highest-rated movie genres
 * Budget-to-box office ratio
 * Which production studios gross the highest
-  * Which genres of movies these production studios produce. 
+  * Which genres of movies these production studios produce
  
 We cleaned, aggregated, and normalized data from Box Office Mojo, The Numbers, and the Internet Movie Database (IMDB) to calculate these metrics and create recommendations for Computer Vision. We also used hypothesis testing to determine whether Computer Vision should market their movies in the international or domestic spaces. 
 
