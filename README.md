@@ -15,7 +15,30 @@ We based these recommendations off three high-priority metrics:
 
 # Business Understanding 
 
+* Computer Vision wants to establish a movie studio to create video and movie content. 
+* Computer Vision is new to the movie / video market, and needs guidance regarding what types of movies to create. 
+* Providing insights into what types of movies are doing best at the box office will allow Computer Vision to allocate their budget towards creating a successful film. 
+
 # Data Understanding 
+
+We used data from three main sources to make recommendations for Computer Vision:
+* Box Office Mojo
+* The Numbers
+* IMDB (Internet Movie Database)
+
+The data from Box Office Mojo included movie domestic and foreign gross, and movie production studio.
+* Dataset contained in a .csv file
+* Approximately 39% missing data in foreign gross column
+
+Data from The Numbers included production budget and worldwide gross information.
+* Dataset contained in a .csv file
+* Approximately 6% missing data in worldwide gross
+
+Data from IMDB included general movie information such as title, average ratings, and genres.
+* Data represented as a relational SQL database
+* Most analysis done using **movie_basics** and **movie_ratings** tables
+
+We only considered movies in each dataset that had been released in 2010 or later.
 
 # Data Analysis
 
