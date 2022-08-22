@@ -1,3 +1,18 @@
+# How to Navigate this Repository
+
+Our final notebook can be found in the file __Finalized Notebook.ipynb__ and contains 
+the data exploration, cleaning and analysis that supported our final recommendations for Computer Vision. 
+
+The data we used to complete our analysis is located in the __zippedData__ folder. 
+
+Regaring the IMDB dataset, there is an entity-relationship diagram that outlines how data is organized in the __im.db.zip__ file. We primarily used the __movie_basics__ and __movie_ratings__ tables to conduct our analysis.  
+
+# Relevant Links
+* [Presentation]()
+* [Box Office Mojo](https://www.boxofficemojo.com/)
+* [The Numbers](https://www.the-numbers.com/)
+* [IMDB](https://www.imdb.com/)
+
 # Overview 
 
 Computer Vision wants to break into the movie production industry, but needs insight regarding what types of movies to make. 
